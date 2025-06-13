@@ -49,11 +49,10 @@ def get_all_video_ids_from_channel(channel_id):
 
 if __name__ == "__main__":
     channel_ids = [
-        # "UCTbtlMEiBfs0zZLQyJzR0Uw",  # tarik
-        # "UCQHX6ViZmPsWiYSFAyS0a3Q",  # gothamchess
-        "UCNEI-oWOivQJ9IMn8GeCrMg"#,  # gabrielpiano1
-        # "UC7trU46U_9XPDtMnDbiDPUQ",  # Jev
-        # "UCh5mLn90vUaB1PbRRx_AiaA",  # MoreSidemen
+        "UCRC6cNamj9tYAO6h_RXd5xA", # RTGame (gaming)
+        "UCmGSJVG3mCRXVOP4yZrU1Dw",  # Johnny Harris (journalist)
+        "UCvcEBQ0K3UsQ8bzWKHKQmbw", # Struthless (personal development)
+        "UCpCSAcbqs-sjEVfk_hMfY9w" # Zach Star (science/engineering)
     ]
 
     all_video_details = []
