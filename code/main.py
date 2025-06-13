@@ -49,11 +49,11 @@ def get_all_video_ids_from_channel(channel_id):
 
 if __name__ == "__main__":
     channel_ids = [
-        "UCTbtlMEiBfs0zZLQyJzR0Uw",  # tarik
-        "UCQHX6ViZmPsWiYSFAyS0a3Q",  # gothamchess
-        "UCNEI-oWOivQJ9IMn8GeCrMg",  # gabrielpiano1
-        "UC7trU46U_9XPDtMnDbiDPUQ",  # Jev
-        "UCh5mLn90vUaB1PbRRx_AiaA",  # MoreSidemen
+        # "UCTbtlMEiBfs0zZLQyJzR0Uw",  # tarik
+        # "UCQHX6ViZmPsWiYSFAyS0a3Q",  # gothamchess
+        "UCNEI-oWOivQJ9IMn8GeCrMg"#,  # gabrielpiano1
+        # "UC7trU46U_9XPDtMnDbiDPUQ",  # Jev
+        # "UCh5mLn90vUaB1PbRRx_AiaA",  # MoreSidemen
     ]
 
     all_video_details = []
