@@ -64,7 +64,7 @@ The final model will predict a binary or continuous measure of virality based on
    - Upload thumbnails manually or generate using video IDs
 
 3. **Train Models**
-   - Run 'notebooks/modeling.ipynb' to build and evaluate classifiers or regressors
+   - Run `notebooks/modeling.ipynb` to build and evaluate models
 
 ---
 
