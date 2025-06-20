@@ -53,7 +53,7 @@ if __name__ == "__main__":
         # "UCmGSJVG3mCRXVOP4yZrU1Dw",  # Johnny Harris (journalist)
         # "UCvcEBQ0K3UsQ8bzWKHKQmbw", # Struthless (personal development)
         # "UCpCSAcbqs-sjEVfk_hMfY9w" # Zach Star (science/engineering)
-        'UCoOjH8D2XAgjzQlneM2W0EQ' # Jake Tran
+        'UCh5mLn90vUaB1PbRRx_AiaA' # MoreSidemen
     ]
 
     all_video_details = []
