@@ -49,11 +49,30 @@ def get_all_video_ids_from_channel(channel_id):
 
 if __name__ == "__main__":
     channel_ids = [
-        # "UCRC6cNamj9tYAO6h_RXd5xA", # RTGame (gaming)
-        # "UCmGSJVG3mCRXVOP4yZrU1Dw",  # Johnny Harris (journalist)
-        # "UCvcEBQ0K3UsQ8bzWKHKQmbw", # Struthless (personal development)
-        # "UCpCSAcbqs-sjEVfk_hMfY9w" # Zach Star (science/engineering)
-        'UCh5mLn90vUaB1PbRRx_AiaA' # MoreSidemen
+        'UC0lG3Ihe4LGV851lODRIS5g', # French Cooking Academy
+        'UCscCA-entvtKdjmVF46mz-w', # Cooking Buddies
+        'UC96HuwJhXI2p-_zZi3oAR_g', # Glock9
+        'UCaOqw1VxoohgWyifBcZ39Kg', # Phisnom
+        'UCt_t6FwNsqr3WWoL6dFqG9w', # BrainCraft
+        'UC1H1NWNTG2Xi3pt85ykVSHA', # Jordan Harrod
+        'UC7qPftDWPw9XuExpSgfkmJQ', # Nostalgia Nerd
+        'UC2DjFE7Xf11URZqWBigcVOQ', # EEVblog
+        'UCwg9GXj-BUwfZkPG4Nm2gUQ', # Lainey Ostrom
+        'UC3fgv-ejI64Gw3FzastFIpw', # Kristin Johns
+        'UCwuLoOntr78Ab37BuntMWEg', # iGoBart
+        'UCJfm-feI6sSoaDwFx_viN1g', # Ghib Ojisan
+        'UCh_w_vLvlZNBeTAP8qaWhoA', # Vo2maxProductions
+        'UCOpsZxrmeDARilha1uq4slA', # Heather Robertson
+        'UCEi0EgWJ5m7gVBQ68a1L0TA', # Alexrainbirdmusic
+        'UC4i0urwpMIEYdtJWU7hlu2g', # Megan Davies
+        'UCkEXXbo1QOTesV8h2hkN-1g', # The Valleyfolk
+        'UCghR6gNuBneEKkDuKtXQM4w', # Chris Fleming
+        'UCEn3fRj2e0mpqYsijxnzayg', # Xyla Foxlin
+        'UCljE1ODdSF7LS9xx9eWq0GQ', # Potholer54
+        'UCA8P3Rgfjn0IFZL4bmrKbrg', # Rule1Investing
+        'UCDXTQ8nWmx_EhZ2v-kp7QxA', # Ben Felix
+        'UCweYFCSaqh3bRnM5M7_KUUg', # Griffon Ramsey
+        'UClM2LuQ1q5WEc23462tQzBg', # Proko
     ]
 
     all_video_details = []
