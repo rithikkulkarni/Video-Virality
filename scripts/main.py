@@ -73,7 +73,8 @@ if __name__ == "__main__":
         # 'UCDXTQ8nWmx_EhZ2v-kp7QxA', # Ben Felix
         # 'UCweYFCSaqh3bRnM5M7_KUUg', # Griffon Ramsey
         # 'UClM2LuQ1q5WEc23462tQzBg', # Proko
-        'UCiFOL6V9KbvxfXvzdFSsqCw', # Ken
+        # 'UCiFOL6V9KbvxfXvzdFSsqCw', # Ken
+        'UCPmCaKjzYF3pXYLfaRhacwA', # Kassia
     ]
 
     all_video_details = []
@@ -93,7 +94,7 @@ if __name__ == "__main__":
     print(df.head())
 
     # Save DataFrame to CSV
-    filename = "ken.csv"
+    filename = "kassia.csv"
     df.to_csv(filename, index=False)
     print(f"Video details saved to {filename}")
 
