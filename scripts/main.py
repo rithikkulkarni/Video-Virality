@@ -73,7 +73,7 @@ if __name__ == "__main__":
         # 'UCDXTQ8nWmx_EhZ2v-kp7QxA', # Ben Felix
         # 'UCweYFCSaqh3bRnM5M7_KUUg', # Griffon Ramsey
         # 'UClM2LuQ1q5WEc23462tQzBg', # Proko
-        'UCwNWbByE5rbxEW9XXdeoCVg', # JavaTheCraft
+        'UCiFOL6V9KbvxfXvzdFSsqCw', # Ken
     ]
 
     all_video_details = []
@@ -93,6 +93,7 @@ if __name__ == "__main__":
     print(df.head())
 
     # Save DataFrame to CSV
-    df.to_csv("javathecraft.csv", index=False)
-    print("Video details saved to video_details.csv")
+    filename = "ken.csv"
+    df.to_csv(filename, index=False)
+    print(f"Video details saved to {filename}")
 
