@@ -74,7 +74,11 @@ if __name__ == "__main__":
         # 'UCweYFCSaqh3bRnM5M7_KUUg', # Griffon Ramsey
         # 'UClM2LuQ1q5WEc23462tQzBg', # Proko
         # 'UCiFOL6V9KbvxfXvzdFSsqCw', # Ken
-        'UCPmCaKjzYF3pXYLfaRhacwA', # Kassia
+        # 'UCPmCaKjzYF3pXYLfaRhacwA', # Kassia
+        # 'UCNEI-oWOivQJ9IMn8GeCrMg', # Gabriel Piano
+        # 'UCgx_iANJu2vdqaVldHn94vg', # TDunc Piano
+        # 'UCIf54-aXt1pqliaehOHX-ow', # RB Music Piano
+        'UCUyAA4Ekq5nHmr5mjZ-L4eA', # Clips Joy
     ]
 
     all_video_details = []
@@ -94,7 +98,6 @@ if __name__ == "__main__":
     print(df.head())
 
     # Save DataFrame to CSV
-    filename = "kassia.csv"
+    filename = "clipsjoy.csv"
     df.to_csv(filename, index=False)
     print(f"Video details saved to {filename}")
-
