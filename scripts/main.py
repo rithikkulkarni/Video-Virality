@@ -49,37 +49,47 @@ def get_all_video_ids_from_channel(channel_id):
 
 if __name__ == "__main__":
     channel_ids = [
-        # 'UC0lG3Ihe4LGV851lODRIS5g', # French Cooking Academy
-        # 'UCscCA-entvtKdjmVF46mz-w', # Cooking Buddies
-        # 'UC96HuwJhXI2p-_zZi3oAR_g', # Glock9
-        # 'UCaOqw1VxoohgWyifBcZ39Kg', # Phisnom
-        # 'UCt_t6FwNsqr3WWoL6dFqG9w', # BrainCraft
-        # 'UC1H1NWNTG2Xi3pt85ykVSHA', # Jordan Harrod
-        # 'UC7qPftDWPw9XuExpSgfkmJQ', # Nostalgia Nerd
-        # 'UC2DjFE7Xf11URZqWBigcVOQ', # EEVblog
-        # 'UCwg9GXj-BUwfZkPG4Nm2gUQ', # Lainey Ostrom
-        # 'UC3fgv-ejI64Gw3FzastFIpw', # Kristin Johns
-        # 'UCwuLoOntr78Ab37BuntMWEg', # iGoBart
-        # 'UCJfm-feI6sSoaDwFx_viN1g', # Ghib Ojisan
-        # 'UCh_w_vLvlZNBeTAP8qaWhoA', # Vo2maxProductions
-        # 'UCOpsZxrmeDARilha1uq4slA', # Heather Robertson
-        # 'UCEi0EgWJ5m7gVBQ68a1L0TA', # Alexrainbirdmusic
-        # 'UC4i0urwpMIEYdtJWU7hlu2g', # Megan Davies
-        # 'UCkEXXbo1QOTesV8h2hkN-1g', # The Valleyfolk
-        # 'UCghR6gNuBneEKkDuKtXQM4w', # Chris Fleming
-        # 'UCEn3fRj2e0mpqYsijxnzayg', # Xyla Foxlin
-        # 'UCljE1ODdSF7LS9xx9eWq0GQ', # Potholer54
-        # 'UCA8P3Rgfjn0IFZL4bmrKbrg', # Rule1Investing
-        # 'UCDXTQ8nWmx_EhZ2v-kp7QxA', # Ben Felix
-        # 'UCweYFCSaqh3bRnM5M7_KUUg', # Griffon Ramsey
-        # 'UClM2LuQ1q5WEc23462tQzBg', # Proko
-        # 'UCiFOL6V9KbvxfXvzdFSsqCw', # Ken
-        # 'UCPmCaKjzYF3pXYLfaRhacwA', # Kassia
-        # 'UCNEI-oWOivQJ9IMn8GeCrMg', # Gabriel Piano
-        # 'UCgx_iANJu2vdqaVldHn94vg', # TDunc Piano
-        # 'UCIf54-aXt1pqliaehOHX-ow', # RB Music Piano
-        'UCUyAA4Ekq5nHmr5mjZ-L4eA', # Clips Joy
-    ]
+    "UCsaGKqPZnGp_7N80hcHySGQ",
+    "UChBEbMKI1eCcejTtmI32UEw",
+    "UCTvYEid8tmg0jqGPDkehc_Q",
+    "UCpprBWvibvmOlI8yJOEAAjA",
+    "UC4rqhyiTs7XyuODcECvuiiQ",
+    "UCj-wTLj0p0YvTkS-9-ACm0A",
+    "UCR9Gcq0CMm6YgTzsDxAxjOQ",
+    "UC4Ndz98NI_-9VQM3E7fctnQ",
+    "UCckPYr9b_iVucz8ID1Q67sw",
+    "UCqSeA-rZs6GOfZrs9jZRXtA",
+    "UCoxcjq-8xIDTYp3uz647V5A",
+    "UC2C_jShtL725hvbm1arSV9w",
+    "UCUQo7nzH1sXVpzL92VesANw",
+    "UCRix1GJvSBNDpEFY561eSzw",
+    "UCc_-hy0u9-oKlNdMKHBudcQ",
+    "UCSOpcUkE-is7u7c4AkLgqTw",
+    "UC5I2hjZYiW9gZPVkvzM8_Cw",
+    "UCVYamHliCI9rw1tHR1xbkfw",
+    "UC9fSZHEh6XsRpX-xJc6lT3A",
+    "UCzJIliq68IHSn-Kwgjeg2AQ",
+    "UC8v4vz_n2rys6Yxpj8LuOBA",
+    "UC0KiGuCTrehqzSQ7ikjxSQw",
+    "UCnQhwPVwcP-DnbUZtIMrupw",
+    "UC0Ize0RLIbGdH5x4wI45G-A",
+    "UCXulruMI7BHj3kGyosNa0jA",
+    "UCVrvnobbNGGMsS5n2mJwfOg",
+    "UCqjwF8rxRsotnojGl4gM0Zw",
+    "UCzGLDaTu81nJDtWK10MniGg",
+    "UCplkk3J5wrEl0TNrthHjq4Q",
+    "UCWrtsravWX0ANhHiJXNlyXw",
+    "UCUKi4zY5ETSqrKAjTBgjM-g",
+    "UCpIafFPGutTAKOBHMtGen7g",
+    "UCzGEGjOCbgv9z9SF71QyI7g",
+    "UCE6acMV3m35znLcf0JGNn7Q",
+    "UC4v2tQ8GqP0RbmAzhp4IFkQ",
+    "UCSbyncU597LMwb3HhnAI_4w",
+    "UCMfXv2enRXepxG92VoxfrEg",
+    "UC4-CH0epzZpD_ARhxCx6LaQ",
+    "UCOpcACMWblDls9Z6GERVi1A"
+]
+
 
     all_video_details = []
     for channel_id in channel_ids:
@@ -98,6 +108,6 @@ if __name__ == "__main__":
     print(df.head())
 
     # Save DataFrame to CSV
-    filename = "clipsjoy.csv"
+    filename = "group6_v2.csv"
     df.to_csv(filename, index=False)
     print(f"Video details saved to {filename}")
