@@ -49,8 +49,53 @@ def get_all_video_ids_from_channel(channel_id):
 
 if __name__ == "__main__":
     channel_ids = [
-    # Channel ids here
+    "UCNC6uUtrcPGWJJdjol2-uDQ",
+    "UCWpN3lA7SFXz297RrexMk7w",
+    "UCEZvjCk6yoPOfDWDgiWjnVQ",
+    "UCEiui9T4ZYx8K8nuZ5YFSTw",
+    "UCI0X6XT0iIT178DIxuhnQ0A",
+    "UCszDlhrQpNsUAvhK1ejOr7g",
+    "UCHXQQUcC09ayHHXT19WPxmQ",
+    "UCSrqpWlxi665eQpT3cQ7faw",
+    "UCTUo98NJmvkyP4ltv5W3D9g",
+    "UCUYdOka3TBY0OV75AkiuMRw",
+    "UCil_aeLn8pzRbNyVF_ENGWQ",
+    "UC55EY1hi7yVht5ysukmMscQ",
+    "UCPrnZvTrcwqViqmhdRYGY-Q",
+    "UCfXpgHHl_zKxNbCK_MszeYQ",
+    "UC0HzEBLlJxlrwBAHJ5S9JQg",
+    "UCljE1ODdSF7LS9xx9eWq0GQ",
+    "UC2av1pwBQwy4mrPVVlWl7-Q",
+    "UCzqlzMvlYyWVxFcNMZYzE0g",
+    "UCybLjt4Vp59aSXVVcI2RS1w",
+    "UCRG_N2uO405WO4P3Ruef9NA",
+    "UCV4dQuxfyEHD-JzvT1Ur_jg",
+    "UCXh70MDHSrPxLIxmHqN9ttg",
+    "UCAJ5ASOAx4sJlMIA1L7TE8g",
+    "UCGKfVunhAgXOoYru_7LzMjg",
+    "UC8_1TYtupQV27GXQSLHtg3w",
+    "UC-4oG9m_uiiFiBU3hsyl2uQ",
+    "UCaaCrr_lZjK1OydGJ87Y_hA",
+    "UCpWKp6lHakdUNsy49_TLDzA",
+    "UCS7wVohIwd66b95xyuw7DFQ",
+    "UCOmXfX6mwaEtTAVXkzpdhvQ",
+    "UC96TGOrWeIWxr6noks2ipzw",
+    "UCCDlc0Nw29RmqOs2jQPEX6A",
+    "UCtNlZNCDnPPw3tImEboXo_w",
+    "UCKXAIClK1ZpQ0irkJZH00dg",
+    "UCR2-F1UWmLeNgKEjfYnLibQ",
+    "UC-MtmLd4PbmNuRaasDgBFBA",
+    "UChajkcPS2cwubmrykAvTqpA",
+    "UC9l0mKCZRMJCZ-UFwDgrUjw",
+    "UC53ONFvWH0hU985xkjVLSwQ",
+    "UChKkEDkpHs5M5Glpx8ubztg",
+    "UCZxtOYSWDb8wogyDqVAiOBA",
+    "UC7pBv8EE3FtDZEF3HtnbFjA",
+    "UCOw0zA-Gf5gpQ6K446mR0wA",
+    "UCGku32OWE9nnRKrJiA4UlKA",
+    "UC_elPuYZ3vWE0QV_WMnYoSw"
 ]
+
 
 
     all_video_details = []
