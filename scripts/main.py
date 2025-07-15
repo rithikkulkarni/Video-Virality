@@ -49,52 +49,52 @@ def get_all_video_ids_from_channel(channel_id):
 
 if __name__ == "__main__":
     channel_ids = [
-    "UCNC6uUtrcPGWJJdjol2-uDQ",
-    "UCWpN3lA7SFXz297RrexMk7w",
-    "UCEZvjCk6yoPOfDWDgiWjnVQ",
-    "UCEiui9T4ZYx8K8nuZ5YFSTw",
-    "UCI0X6XT0iIT178DIxuhnQ0A",
-    "UCszDlhrQpNsUAvhK1ejOr7g",
-    "UCHXQQUcC09ayHHXT19WPxmQ",
-    "UCSrqpWlxi665eQpT3cQ7faw",
-    "UCTUo98NJmvkyP4ltv5W3D9g",
-    "UCUYdOka3TBY0OV75AkiuMRw",
-    "UCil_aeLn8pzRbNyVF_ENGWQ",
-    "UC55EY1hi7yVht5ysukmMscQ",
-    "UCPrnZvTrcwqViqmhdRYGY-Q",
-    "UCfXpgHHl_zKxNbCK_MszeYQ",
-    "UC0HzEBLlJxlrwBAHJ5S9JQg",
-    "UCljE1ODdSF7LS9xx9eWq0GQ",
-    "UC2av1pwBQwy4mrPVVlWl7-Q",
-    "UCzqlzMvlYyWVxFcNMZYzE0g",
-    "UCybLjt4Vp59aSXVVcI2RS1w",
-    "UCRG_N2uO405WO4P3Ruef9NA",
-    "UCV4dQuxfyEHD-JzvT1Ur_jg",
-    "UCXh70MDHSrPxLIxmHqN9ttg",
-    "UCAJ5ASOAx4sJlMIA1L7TE8g",
-    "UCGKfVunhAgXOoYru_7LzMjg",
-    "UC8_1TYtupQV27GXQSLHtg3w",
-    "UC-4oG9m_uiiFiBU3hsyl2uQ",
-    "UCaaCrr_lZjK1OydGJ87Y_hA",
-    "UCpWKp6lHakdUNsy49_TLDzA",
-    "UCS7wVohIwd66b95xyuw7DFQ",
-    "UCOmXfX6mwaEtTAVXkzpdhvQ",
-    "UC96TGOrWeIWxr6noks2ipzw",
-    "UCCDlc0Nw29RmqOs2jQPEX6A",
-    "UCtNlZNCDnPPw3tImEboXo_w",
-    "UCKXAIClK1ZpQ0irkJZH00dg",
-    "UCR2-F1UWmLeNgKEjfYnLibQ",
-    "UC-MtmLd4PbmNuRaasDgBFBA",
-    "UChajkcPS2cwubmrykAvTqpA",
-    "UC9l0mKCZRMJCZ-UFwDgrUjw",
-    "UC53ONFvWH0hU985xkjVLSwQ",
-    "UChKkEDkpHs5M5Glpx8ubztg",
-    "UCZxtOYSWDb8wogyDqVAiOBA",
-    "UC7pBv8EE3FtDZEF3HtnbFjA",
-    "UCOw0zA-Gf5gpQ6K446mR0wA",
-    "UCGku32OWE9nnRKrJiA4UlKA",
-    "UC_elPuYZ3vWE0QV_WMnYoSw"
+    "UCIKTcWDngWURSNMxG3xFF4A",
+    "UC_LBadWxcaANveD1QONXV7Q",
+    "UCjtkzZM1ANmgc6J5zFgvc8w",
+    "UCuUBETma-RisNtS6aJk3pNw",
+    "UCeQ0USc1Etwr8CWNfmE-BZw",
+    "UC-6TAL7Rb4lTRoJFZcvmFLA",
+    "UCJTHY1kcGgT1x0kwLdF4CBA",
+    "UCYe1EabS-IyRl5aG6dmP5iw",
+    "UCVnAVqxZ4HwIv7dUgxYTAog",
+    "UCTHjX4X2QVjEEoKScKYHE1g",
+    "UCuScGY44zLMD-OaJaKdagCA",
+    "UCAa9PjDhzFYuwVJHr7DDPzA",
+    "UCqcdScSl_gg12yyk_XVyFAQ",
+    "UCqYxpDBj4Nr3fcwqok0VOBQ",
+    "UCGBr9pvqOc5huEFyMSOALaA",
+    "UCmxSe-jdtpOGFPz7YnBmxpA",
+    "UCf9NykKFD5lEqIWtNuhrDkw",
+    "UCP4XOMBAQ7yHu5o69glGmaw",
+    "UCPp_8tv_5_rWLsrL2uAEAIg",
+    "UCqFttwKGUj9cSBOn90r4Yrg",
+    "UCSPVvGTjlPpEg4ZMMKxnEdQ",
+    "UCxKBj8TezS_lg5GfGNyr6Cw",
+    "UCHAywjSCVHgUsXByP0Q5uBA",
+    "UCD5Wx8BlBCVeWh050OzU2ZA",
+    "UChDzahCkGecK2LbJ7tdWuNg",
+    "UCekaXxIZfBlh5suqdtwy9vg",
+    "UCgi_jvYUq8G8fE4dfwyJj8g",
+    "UCjtpO7F6FzECmaFSIYZ7HAQ",
+    "UC5drZ4PTLUMoelQUqSzuN7Q",
+    "UCVAgeTuoOpA5BPW-CmcP33g",
+    "UCXXvsIMFxzxa14oHjVSB8Zg",
+    "UCGnZMHIlBPWt-swzYMemhCA",
+    "UCZ4uYoPRfdSzuIUm8TKxy6g",
+    "UCWuRpEWA_MDiz6Y7MaMz2Mg",
+    "UCEWtHje-ts2jxFFi5L1qerA",
+    "UCnNzDKpmLjLxYSQBTT8Iilw",
+    "UC0mOFuaJHi0kbssqcf0eeyA",
+    "UCzLj26-TECyVbdXoKtplodg",
+    "UCwArK25uwo9bGipXpish8wg",
+    "UCaivmHjaI5s2wiRN9rl9pwg",
+    "UCpJ0j4iDa8PU9k1pR73KQJQ"
 ]
+
+
+
+
 
 
 
@@ -115,6 +115,6 @@ if __name__ == "__main__":
     print(df.head())
 
     # Save DataFrame to CSV
-    filename = "group6_v2.csv"
+    filename = "group2_v2.csv"
     df.to_csv(filename, index=False)
     print(f"Video details saved to {filename}")
