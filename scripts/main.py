@@ -49,55 +49,8 @@ def get_all_video_ids_from_channel(channel_id):
 
 if __name__ == "__main__":
     channel_ids = [
-    "UCIKTcWDngWURSNMxG3xFF4A",
-    "UC_LBadWxcaANveD1QONXV7Q",
-    "UCjtkzZM1ANmgc6J5zFgvc8w",
-    "UCuUBETma-RisNtS6aJk3pNw",
-    "UCeQ0USc1Etwr8CWNfmE-BZw",
-    "UC-6TAL7Rb4lTRoJFZcvmFLA",
-    "UCJTHY1kcGgT1x0kwLdF4CBA",
-    "UCYe1EabS-IyRl5aG6dmP5iw",
-    "UCVnAVqxZ4HwIv7dUgxYTAog",
-    "UCTHjX4X2QVjEEoKScKYHE1g",
-    "UCuScGY44zLMD-OaJaKdagCA",
-    "UCAa9PjDhzFYuwVJHr7DDPzA",
-    "UCqcdScSl_gg12yyk_XVyFAQ",
-    "UCqYxpDBj4Nr3fcwqok0VOBQ",
-    "UCGBr9pvqOc5huEFyMSOALaA",
-    "UCmxSe-jdtpOGFPz7YnBmxpA",
-    "UCf9NykKFD5lEqIWtNuhrDkw",
-    "UCP4XOMBAQ7yHu5o69glGmaw",
-    "UCPp_8tv_5_rWLsrL2uAEAIg",
-    "UCqFttwKGUj9cSBOn90r4Yrg",
-    "UCSPVvGTjlPpEg4ZMMKxnEdQ",
-    "UCxKBj8TezS_lg5GfGNyr6Cw",
-    "UCHAywjSCVHgUsXByP0Q5uBA",
-    "UCD5Wx8BlBCVeWh050OzU2ZA",
-    "UChDzahCkGecK2LbJ7tdWuNg",
-    "UCekaXxIZfBlh5suqdtwy9vg",
-    "UCgi_jvYUq8G8fE4dfwyJj8g",
-    "UCjtpO7F6FzECmaFSIYZ7HAQ",
-    "UC5drZ4PTLUMoelQUqSzuN7Q",
-    "UCVAgeTuoOpA5BPW-CmcP33g",
-    "UCXXvsIMFxzxa14oHjVSB8Zg",
-    "UCGnZMHIlBPWt-swzYMemhCA",
-    "UCZ4uYoPRfdSzuIUm8TKxy6g",
-    "UCWuRpEWA_MDiz6Y7MaMz2Mg",
-    "UCEWtHje-ts2jxFFi5L1qerA",
-    "UCnNzDKpmLjLxYSQBTT8Iilw",
-    "UC0mOFuaJHi0kbssqcf0eeyA",
-    "UCzLj26-TECyVbdXoKtplodg",
-    "UCwArK25uwo9bGipXpish8wg",
-    "UCaivmHjaI5s2wiRN9rl9pwg",
-    "UCpJ0j4iDa8PU9k1pR73KQJQ"
+    'UCQil4Xo3ymmGwMdCBvHVmLA'
 ]
-
-
-
-
-
-
-
     all_video_details = []
     for channel_id in channel_ids:
         print(f"Processing channel: {channel_id}")
@@ -115,6 +68,6 @@ if __name__ == "__main__":
     print(df.head())
 
     # Save DataFrame to CSV
-    filename = "group2_v2.csv"
+    filename = "test.csv"
     df.to_csv(filename, index=False)
     print(f"Video details saved to {filename}")
